@@ -2,10 +2,17 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int first;
+    int second;
+    int third;
+
+    cout << "Please enter three whole numbers (separated by a space or enter):\n";
+    cin >> first >> second >> third;
+    cout << "You entered " << first << ", " << second << ", and " << third << ".";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
